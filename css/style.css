@@ -589,22 +589,22 @@ h1, h2 {
 
 .content__picture .test:nth-child(1) {
   top: 13%;
-  right: -13%;
+  right: -36%;
 }
 
 .content__picture .test:nth-child(2) {
   top: 42%;
-  left: -13%;
+  left: -33%;
 }
 
 .content__picture .test:nth-child(3) {
   top: 67%;
-  right: -15%;
+  right: -38%;
 }
 
 .content__picture .test:nth-child(4) {
   top: 86%;
-  left: -3%;
+  left: -20%;
 }
 
 .nature {
