@@ -1,0 +1,17 @@
+@import '_reset.scss';
+@import '_var.scss';
+@import '_header.scss';
+@import '_fonts.scss';
+@import '_slider.scss';
+@import '_content.scss';
+@import '_nature.scss';
+@import '_feedback.scss';
+@import '_footer.scss';
+
+.mainer {
+    margin: 0 auto;
+    padding: 0 30px;
+    // max-width: 1890px;
+    width: 1400px;
+    // overflow: hidden;
+}

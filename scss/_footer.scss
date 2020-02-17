@@ -1,0 +1,83 @@
+.footer {
+    padding: 100px 0;
+    background-color: $colorBase;
+    position: relative;
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 200px 0 0;
+        position: relative;
+    }
+
+    &__logo {
+
+    }
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__icon {
+        width: 60px;
+        height: 60px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: 0 0 20px 0;
+
+        &--sheeps {
+            background-image: url(../img/delivery-man.png)
+        }
+
+        &--basket {
+            background-image: url(../img/shopping-cart.png);
+        }
+
+        &--contact {
+            background-image: url(../img/contact.png);
+        }
+    }
+
+    &__text {
+        color: #FFFFFF;
+        font-size: 22px;
+    }
+
+
+    &__absolute {
+        position: absolute;
+        left: 50%;
+        top: -50px;
+        width: 1000px;
+        border-radius: 25px;
+        // min-width: 600px;
+        transform: translateX(-50%);
+        background-color: $colorBtn;
+    }
+
+    &__absolute-wrapper {
+        display: flex;
+        padding: 15px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__absolute-item {
+        color: #FFFFFF;
+        font-size: 22px;
+        margin: 0 10px;
+    }
+
+    &__absolute-icon {
+        width: 60px;
+        height: 60px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: url(../img/discount.png);
+    }
+}

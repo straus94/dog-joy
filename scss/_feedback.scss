@@ -1,0 +1,58 @@
+.feedback {
+    margin: 0 0 70px 0;
+
+    &__title {
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 42px;
+        color: $colorBase;
+        text-align: center;
+        margin: 0 0 70px 0;
+    }
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    &__item {
+        width: 400px;
+        height: 600px;
+        border: 5px solid $colorBorder;
+        // border-color: $colorBorder;
+        border-radius: 15px;
+        position: relative;
+
+        &--instagram {
+            
+            &:before {
+                content: '';
+                width: 50px;
+                height: 50px;
+                position: absolute;
+                background-image: url(../img/feedbackinsta.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                top: 50px;
+                left: 120px;
+                z-index: 100;
+            }
+        }  
+
+        &--facebook {
+            &:before {
+                content: '';
+                width: 50px;
+                height: 50px;
+                position: absolute;
+                background-image: url(../img/deefbackfacebook.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                top: 50px;
+                left: 120px;
+            }
+        }
+    }
+}
